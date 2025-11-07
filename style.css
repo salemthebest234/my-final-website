@@ -1,0 +1,40 @@
+.container{
+    background-color: #7fff7f;
+    width: 500px;
+    margin-left: 70px;
+    padding: 50px;
+}
+body{
+    color: #ff0000;
+    background-color: #4b0082;
+}
+h1{
+    color: #0000ff;
+}
+h2{
+    color: #ffff00;
+}
+h3{
+    color: #0000ff;
+}
+h4{
+    color: #fffb00;
+}
+h5{
+    color: #00ced1;
+}
+table{
+    border: 2px solid #000982;
+}
+@media only screen and (max-width: 648px){
+    .container{
+      margin-left: 0px;
+      padding: 50px;  
+    }
+    img{
+        border-radius: 40px;
+    }
+    table{
+        border: 2px solid #ff0000;
+    }
+}
